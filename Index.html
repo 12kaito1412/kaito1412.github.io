@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YUPMANGA</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilos para el contenedor del anuncio */
+        #ad-container {
+            display: none; /* Ocultamos inicialmente */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente */
+            justify-content: center;
+            align-items: center;
+            z-index: 1000; /* Aseguramos que esté por encima de todo el contenido */
+        }
+        #ad-container video {
+            max-width: 80%;
+            max-height: 80%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo-container">
+            <img src="img/log.png" class="logo">
+            <h1>Kasuma Mangas</h1>
+        </div>
+        <div class="menu">
+            <a href="#">Inicio</a>
+            <a href="https://www.patreon.com/literaryuniverse/posts" target="_blank">Suscríbete</a>
+
+        </div>
+    </div>
+    <div class="banner">
+        <img src="img/netx.png" alt="Banner Image">
+    </div>
+    <div class="nav-bar">
+        <a href="https://visortmo.com/" class="nav-item active">MANGAS</a>
+        <a href="https://leerolymp.com/" class="nav-item purple">MANHWAS</a>
+        <a href="C:\Users\color\Videos\Captures\Pagina Magdiel\cont\Index.html" class="nav-item orange">NOVELAS</a>
+    </div>
+    <div class="content">
+        <!-- Section de Tendencias -->
+        <h2 class="section-title">TENDENCIAS</h2>
+        <div class="tendencias">
+            <div class="tendencia">
+                <a href="https://visortmo.com/library/manga/2979/jujutsu-kaisen"><img src="img/Tendencias/trending1.jpg" alt="Trending Image"></a>
+                <div class="info">
+                    <p class="title">jujutsu kaisen</p>
+                    <p class="genre">Género; Sobrenatural</p>
+                </div>
+            </div>
+            <div class="tendencia">
+                <a href="https://visortmo.com/library/manga/624/one-piece"><img src="img/Tendencias/trending2.jpg" alt="Trending Image"></a>
+                <div class="info">
+                    <p class="title">One Piece</p>
+                    <p class="genre">Género; Aventura</p>
+                </div>
+            </div>
+            <div class="tendencia">
+                <a href="https://visortmo.com/library/manga/7528/shingeki-no-kyojin"><img src="img/Tendencias/trending3.jpg" alt="Trending Image"></a>
+                <div class="info">
+                    <p class="title">Attack on Titan</p>
+                    <p class="genre">Género; Acción</p>
+                </div>
+            </div>
+            <div class="tendencia">
+                <a href="https://visortmo.com/library/manga/127/boku-no-hero-academia"><img src="img/Tendencias/trending4.webp" alt="Trending Image"></a>
+                <div class="info">
+                    <p class="title">My Hero Academia</p>
+                    <p class="genre">Género; Superhéroes</p>
+                </div>
+            </div>
+            <div class="tendencia">
+                <a href="https://visortmo.com/library/manga/221/kimetsunoyaiba"><img src="img/Tendencias/trending5.jfif" alt="Trending Image"></a>
+                <div class="info">
+                    <p class="title">Demon Slayer</p>
+                    <p class="genre">Género; Fantasía</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section de Última actualización -->
+        <h2 class="section-title">Última actualización</h2>
+        <div class="ultima-actualizacion">
+            <div class="manga-actualizacion">
+                <a href="https://visortmo.com/library/manga/253/dragon-ball-super"><img src="img/Actualizaciones/manga1.webp" alt="Manga Image"></a>
+                <div class="info">
+                    <p class="title">Dragon Ball Super</p>
+                    <p class="genre">Género; Acción</p>
+                    <p class="chapters">Capítulo I, Capítulo II, ...</p>
+                </div>
+            </div>
+            <div class="manga-actualizacion">
+                <a href="https://visortmo.com/library/manga/952/boruto-two-blue-vortex"><img src="img/Actualizaciones/manga2.jpg" alt="Manga Image"></a>
+                <div class="info">
+                    <p class="title">Boruto</p>
+                    <p class="genre">Género; Aventura</p>
+                    <p class="chapters">Capítulo I, Capítulo II, ...</p>
+                </div>
+            </div>
+            <div class="manga-actualizacion">
+                <a href="https://visortmo.com/library/manhwa/217/solo-leveling"><img src="img/Actualizaciones/manga3.jfif" alt="Manga Image"></a>
+                <div class="info">
+                    <p class="title">Solo Leveling</p>
+                    <p class="genre">Género; Aventura</p>
+                    <p class="chapters">Capítulo I, Capítulo II, ...</p>
+                </div>
+            </div>
+            <div class="manga-actualizacion">
+                <a href="https://visortmo.com/library/manga/251/bleach"><img src="img/Actualizaciones/manga4.jpg" alt="Manga Image"></a>
+                <div class="info">
+                    <p class="title">Bleach</p>
+                    <p class="genre">Género; Acción</p>
+                    <p class="chapters">Capítulo I, Capítulo II, ...</p>
+                </div>
+            </div>
+            <div class="manga-actualizacion">
+                <a href="https://visortmo.com/library/manga/2968/fairy-tail"><img src="img/Actualizaciones/manga5.jpg" alt="Manga Image"></a>
+                <div class="info">
+                    <p class="title">Fairy Tail</p>
+                    <p class="genre">Género; Fantasía</p>
+                    <p class="chapters">Capítulo I, Capítulo II, ...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section de Redes Sociales -->
+    <footer>
+        <div class="social">
+            <p>Por favor ayúdanos compartiendo este sitio con tus amigos. ¡Gracias!</p><br>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/fukodaa/"><img src="img/Redes/facebook.png" alt="Facebook"></a>
+                <a href="https://twitter.com/fukou_daaa"><img src="img/Redes/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="img/Redes/instagram.png" alt="Instagram"></a>
+                
+            </div>
+        </div>
+        <p>&copy; 2024 Lista de Novelas. Todos los derechos reservados</p>
+    </footer>
+
+    <!-- Contenedor para los anuncios -->
+    <div id="ad-container">
+        <video id="ad-video" controls>
+            <source src="img/video1.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de video.
+        </video>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const adContainer = document.getElementById('ad-container');
+            const adVideo = document.getElementById('ad-video');
+
+            // Función para mostrar el anuncio
+            function showAd() {
+                adContainer.style.display = 'flex';
+                adVideo.play();
+            }
+
+            // Función para ocultar el anuncio
+            function hideAd() {
+                adContainer.style.display = 'none';
+                adVideo.pause();
+                adVideo.currentTime = 0; // Reiniciar el video
+            }
+
+            // Ocultar el anuncio cuando el video termine
+            adVideo.addEventListener('ended', hideAd);
+
+            // Mostrar el anuncio cada cierto tiempo (por ejemplo, cada 1 minutos)
+            setInterval(showAd, 1 * 60 * 1000); // 1 * 60 * 1000 ms = 1 minutos
+        });
+    </script>
+</body>
+</html>
+

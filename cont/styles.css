@@ -1,0 +1,62 @@
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 100px;  /* Cambia el tamaño del logo aquí */
+    height: 100px; /* Asegúrate de mantener las proporciones */
+    margin-right: 10px;
+}
+
+.title {
+    font-size: 24px;
+    color: red;
+}
+
+.manhas {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.manhas h2 {
+    font-size: 36px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+.rating {
+    margin-top: 10px;
+}
+
+.rating span {
+    font-size: 18px;
+    color: gold;
+}
